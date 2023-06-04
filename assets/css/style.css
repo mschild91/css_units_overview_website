@@ -1,0 +1,59 @@
+@font-face {
+    font-family: death-star-font;
+    src: url(../font/death-star-font/DeathStar-VmWB.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    font-family: death-star-font;
+    color: #FFE81F;
+    background-image: url(../img/../img/universum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin: 9.375rem;
+}
+
+h1 {
+    font-size: 4rem; 
+    -webkit-text-stroke: 1px #FFE81F; /* Breite und Farbe der Umrandung anpassen */
+    color: black; /* Farbe des Buchstabens anpassen */
+    letter-spacing: 2px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 1px #FFE81F; /* Breite und Farbe der Umrandung anpassen */
+    color: black; /* Farbe des Buchstabens anpassen */
+    letter-spacing: 2px;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.container {
+    margin: 3.125rem;
+}
+
+.container img {
+    width: 25vw;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 0.3125rem;
+    margin-top: 0.3125rem;
+}
+
+.container img:hover {
+    box-shadow: 0 0 10px #FFE81F;
+}
+
